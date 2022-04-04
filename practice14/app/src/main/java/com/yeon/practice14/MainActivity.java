@@ -16,9 +16,7 @@ public class MainActivity extends AppCompatActivity {
     ScrollView scrollView;
     ImageView imageView;
     BitmapDrawable bitmap;
-
-    int ImageIndex = 0;
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
