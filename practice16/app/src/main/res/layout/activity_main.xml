@@ -27,9 +27,9 @@
                 android:layout_height="400dp"
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
+                android:maxLength="80"
                 android:maxLines="10"
                 android:gravity="center"
-                android:text="하하하하하하하하"
                 />
 
             <TextView
@@ -59,7 +59,7 @@
                     />
 
                 <Button
-                    android:id="@+id/close"
+                    android:id="@+id/btn_close"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="55dp"
@@ -72,10 +72,6 @@
 
         </LinearLayout>
 
-
-
-
     </LinearLayout>
-
 
 </RelativeLayout>

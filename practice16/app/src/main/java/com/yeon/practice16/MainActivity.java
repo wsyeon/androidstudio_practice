@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText et_message;
     private String str;
     long btnBack = 1;
+    private Button btn_close;
     private TextView tv_writing;
 
     @Override
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         btn_text = findViewById(R.id.btn_text);
         et_message = findViewById(R.id.et_message);
         tv_writing = findViewById(R.id.tv_writing);
+        btn_close = findViewById(R.id.btn_close);
 
 
 
@@ -35,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 str = et_message.getText().toString();
-                Toast.makeText(getApplicationContext(), str, Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "전송할 문자\n\n" + str, Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -54,6 +56,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable editable) {
 
+            }
+        });
+
+
+        btn_close.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
             }
         });
 
