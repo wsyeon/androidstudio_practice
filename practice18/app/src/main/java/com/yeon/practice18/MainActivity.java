@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         btn_go_out.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                finish(); // 종료 버튼 누르면 바로 나가짐
+                finish(); // 종료 버튼 누르면 바로 나가진다
             }
         });
     }
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else {
             backBtn = curTime;
-            Toast.makeText(getApplicationContext(), "한번 더 누르시면 종료됩니다.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "한번 더 누르시면 종료됩니다!", Toast.LENGTH_SHORT).show();
         }
 
 
