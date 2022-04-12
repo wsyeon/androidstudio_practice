@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello my name is wonseongyeonssssss"
+        android:capitalize="sentences"
+        />
+    <!-- lineSpacingMultiplier는 줄간격 관련 내용. -->
+    <!-- characters는 영어가 모두 대문자로 사용. -->
+    <!-- capitalize는 글자,단어,문장 단위로 대소문자 조절 기능. -->
+    <!-- sentences,words의 차이점을 아직 모름 둘 다 똑같아보임. -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="hello"
+        android:textColorHint="#fff"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello hi"
+        android:layout_marginTop="30dp"
+        android:editable="false"
+        />
+    <!-- editable는 에디트텍스트에 입력되어있는 문자열을 편집 X. -->
+
+</LinearLayout>
