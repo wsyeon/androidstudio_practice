@@ -14,8 +14,9 @@
         android:ems="10"
         android:hint="아이디"
         android:inputType="textPersonName"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="100dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/et_password_login"
@@ -29,7 +30,8 @@
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="@+id/et_id_login"
         app:layout_constraintStart_toStartOf="@+id/et_id_login"
-        app:layout_constraintTop_toBottomOf="@+id/et_id_login" />
+        app:layout_constraintTop_toBottomOf="@+id/et_id_login"
+        />
 
     <Button
         android:id="@+id/btn_login"
@@ -38,7 +40,10 @@
         android:layout_marginTop="16dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
+        android:paddingStart="25dp"
         android:text="로그인"
+        android:textSize="13dp"
+        android:textStyle="bold"
         android:textColor="#ff000000"
         android:background="#00ff0000"
         app:layout_constraintTop_toBottomOf="@+id/et_password_login"
@@ -48,11 +53,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:text="|"
-        android:textSize="35sp"
+        android:textSize="25sp"
         android:textColor="#88000000"
         app:layout_constraintStart_toEndOf="@id/btn_login"
         app:layout_constraintEnd_toStartOf="@id/btn_signup"
@@ -67,7 +72,10 @@
         android:layout_marginTop="16dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
+        android:paddingEnd="20dp"
         android:text="회원가입"
+        android:textSize="13dp"
+        android:textStyle="bold"
         android:textColor="#ff000000"
         android:background="#00ff0000"
         app:layout_constraintTop_toBottomOf="@+id/et_password_login"

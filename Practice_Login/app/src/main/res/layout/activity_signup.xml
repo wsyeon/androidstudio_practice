@@ -11,14 +11,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="아이디"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="100dp"
-        />
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/et_password_signup"
@@ -26,12 +24,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="비밀번호"
+        android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="@+id/et_id_signup"
         app:layout_constraintStart_toStartOf="@+id/et_id_signup"
-        app:layout_constraintTop_toBottomOf="@+id/et_id_signup"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/et_id_signup" />
 
     <EditText
         android:id="@+id/et_name_signup"
@@ -52,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:hint="나이"
         app:layout_constraintEnd_toEndOf="@+id/et_name_signup"
         app:layout_constraintStart_toStartOf="@+id/et_name_signup"
@@ -65,6 +62,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="회원가입"
+        android:background="#88ffffff"
+        android:textColor="#ff000000"
         app:layout_constraintEnd_toEndOf="@+id/et_age_signup"
         app:layout_constraintStart_toStartOf="@+id/et_age_signup"
         app:layout_constraintTop_toBottomOf="@+id/et_age_signup"
