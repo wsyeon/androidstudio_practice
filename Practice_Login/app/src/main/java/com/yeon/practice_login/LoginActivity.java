@@ -61,7 +61,7 @@ public class LoginActivity extends AppCompatActivity {
                                 intent.putExtra("userID",userID);
                                 intent.putExtra("userPassword",userPassword );
                                 startActivity(intent);
-                            } else { // 로그인에 실해한 경우
+                            } else { // 로그인에 실패한 경우
                                 Toast.makeText(getApplicationContext(), "로그인에 성공하였습니다.", Toast.LENGTH_SHORT).show();
                                 return;
                             }
