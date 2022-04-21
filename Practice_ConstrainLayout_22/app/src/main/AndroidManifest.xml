@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.yeon.practice_videoview_20">
-
-    <uses-permission android:name="android.permission.INTERNET"/>
+    package="com.yeon.practice_constrainlayout_22">
 
     <application
         android:allowBackup="true"
@@ -10,13 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:usesCleartextTraffic="true"
-        android:theme="@style/Theme.Practice_VideoView_20">
+        android:theme="@style/Theme.Practice_ConstrainLayout_22">
         <activity
-            android:name="com.yeon.practice_videoview_21.MainActivity"
-            android:exported="true"
-            android:screenOrientation="landscape"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

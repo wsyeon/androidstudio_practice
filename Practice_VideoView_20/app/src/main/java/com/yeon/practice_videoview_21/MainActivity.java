@@ -1,4 +1,4 @@
-package com.yeon.practice_videoview_20;
+package com.yeon.practice_videoview_21;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.widget.MediaController;
 import android.widget.VideoView;
+
+import com.yeon.practice_videoview_20.R;
 
 public class MainActivity extends AppCompatActivity {
 
