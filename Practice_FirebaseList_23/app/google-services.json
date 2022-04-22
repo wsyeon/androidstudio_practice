@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1073229144933",
+    "project_id": "practice-firebaselist-23",
+    "storage_bucket": "practice-firebaselist-23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073229144933:android:cef91a992fc59d15f4f78c",
+        "android_client_info": {
+          "package_name": "com.yeon.practice_firebaselist_23"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073229144933-t3efror6n05l0q53jmj2inft00s34g48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdbH5UHtljCBsdaTHdvO8LKJGVghO9m64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073229144933-t3efror6n05l0q53jmj2inft00s34g48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
