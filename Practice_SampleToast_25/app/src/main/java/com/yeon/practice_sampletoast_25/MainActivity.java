@@ -30,14 +30,14 @@ public class MainActivity extends AppCompatActivity {
         TextView text = layout.findViewById(R.id.text);
 
         Toast toast = new Toast(this);
-        text.setText("모양 바꾼 토스트");
+        text.setText("모양 바꾼 토스트입니다.");
         toast.setGravity(Gravity.CENTER, 0, -100);
-        toast.setDuration(Toast.LENGTH_SHORT);
+        toast.setDuration(Toast.LENGTH_LONG);
         toast.setView(layout);
         toast.show();
     }
 
     public void onButton2Clicked(View v) {
-        Snackbar.make(v, "스낵바입니다.", Snackbar.LENGTH_SHORT).show();
+        Snackbar.make(v, "스낵바입니다.", Snackbar.LENGTH_LONG).show();
     }
 }
