@@ -8,8 +8,15 @@
         android:id="@+id/tv_partView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="부분 화면"
+        android:text="부분 화면 1"
         android:textSize="30sp"
+        />
+
+    <CheckBox
+        android:id="@+id/cb_agree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="동의합니다."
         />
 
 
