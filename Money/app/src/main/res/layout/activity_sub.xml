@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="5월 가계부(지출)"
+            android:text="5월 가계부(수입)"
             android:textSize="32sp"
             android:gravity="center"
             android:textColor="#ff000000"
@@ -339,7 +339,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
-                android:text="쓴 금액 : "
+                android:text="받은 금액 : "
                 android:textSize="30sp"
                 android:textColor="#ff000000"
                 />
