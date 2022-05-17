@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -82,6 +83,7 @@
                     android:weightSum="1">
 
                     <EditText
+                        android:id="@+id/et_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="입력하세요."
@@ -368,11 +370,12 @@
                 />
 
             <TextView
+                android:id="@+id/tv_money"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
-                android:text="851,792원"
                 android:textSize="30sp"
+                android:text="851792"
                 android:gravity="center"
                 android:textColor="#ff000000"
                 />
