@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/btn_client"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="고객 관리"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btn_sales"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="매출 관리"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@id/btn_client"
+        app:layout_constraintEnd_toEndOf="@id/btn_client"
+        app:layout_constraintTop_toBottomOf="@id/btn_client"
+        />
+
+    <Button
+        android:id="@+id/btn_goods"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="상품 관리"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@id/btn_sales"
+        app:layout_constraintEnd_toEndOf="@id/btn_sales"
+        app:layout_constraintTop_toBottomOf="@id/btn_sales"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
